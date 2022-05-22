@@ -1,26 +1,35 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import logo from './logo.svg';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Works from './components/Works';
+import Sundry from './components/Sundry';
+import Blogs from './components/Blogs';
+import ErrorBoundary from './components/ErrorBoundary';
+import { ChakraProvider } from '@chakra-ui/react'
+// import { ThemespProvider } from './hooks/useThemes';
 import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ErrorBoundary>
+      <BrowserRouter>
+        <ChakraProvider>
+          <Header />
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/works' element={<Works />} />
+              <Route path='/sundry' element={<Sundry /> } />
+              <Route path='/blogs' element={<Blogs />} />
+            </Routes>
+          <Footer />
+        </ChakraProvider>
+      </BrowserRouter>
+    </ErrorBoundary>
+  )
 }
 
 export default App;

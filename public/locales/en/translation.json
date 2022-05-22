@@ -1,0 +1,35 @@
+{
+  "header": {
+    "blogs": "Blogs",
+    "home": "Home",
+    "sundry": "Sundry",
+    "works": "Works"
+  },
+  "home": {
+    "career": "( Frontend / Develpoer / Blockchain )",
+    "intro1": "I am a front-end developer, keen on blockchain front-end development. What am I currently involved in?",
+    "intro2": " Blockchain development ",
+    "intro3": "Participating in community ecology, learning the front end,",
+    "intro4": "Participating in community ecology, learning the front end,",
+    "intro5": "Are using the front-end knowledge they have learned to build interesting front-end products",
+    "more": "More",
+    "myprofolio": "My Profolio",
+    "ontheweb3": "On The Web3",
+    "resume1": "2018 Completed the undergraduate courses of electrical Engineering in Chongqing Jiaotong University and obtained the bachelor degree",
+    "resume2": "2018 Work in BYD electric vehicle team",
+    "resume3": "2021 Joined the wireless charging research team of Chongqing University",
+    "resume4": "2021~now Dedicated to Web3 field front-end technology",
+    "somethinggood": "Something Good",
+    "stack": "Stack",
+    "stack1": "Script Language: Javascript",
+    "stack2": "Css Framework: Tailwindcss",
+    "stack3": "Static-type: Typescript",
+    "stack4": "Component Gallery: React",
+    "stack5": "Framework: Next.js",
+    "stack6": "blockchain: Solana",
+    "stack7": "Language: Rust",
+    "untilnow": "Until Now",
+    "welcome": "Welcome to my channel!!",
+    "work": "Works"
+  }
+}

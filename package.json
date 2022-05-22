@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.0.2",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/typography": "^0.5.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +16,26 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
+    "autoprefixer": "^10.4.7",
+    "daisyui": "^2.15.0",
+    "dayjs": "^1.11.2",
+    "framer-motion": "^6",
+    "i18next": "^21.8.3",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.0",
+    "i18next-locize-backend": "^5.1.0",
+    "locize": "^2.3.0",
+    "locize-cli": "^7.10.1",
+    "locize-lastused": "^3.0.13",
+    "postcss": "^8.4.13",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-i18next": "^11.16.9",
+    "react-icons": "^4.3.1",
+    "react-router": "6",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "tailwindcss": "^3.0.24",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
   },
@@ -20,7 +43,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "http-server -s -p 5000 build",
+    "sync": "locize sync --path ./public/locales --project-id 24c1d2af-c7e4-46f1-a392-a9f312503825 --api-key 0fccc750-3aa4-4ad0-9c25-076101632381 --reference-language-only false"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +64,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0"
   }
 }

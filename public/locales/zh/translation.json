@@ -1,0 +1,35 @@
+{
+  "header": {
+    "blogs": "博客",
+    "home": "家",
+    "sundry": "杂项",
+    "works": "作品"
+  },
+  "home": {
+    "career": "( 前端 / 开发者 / 区块链爱好者 )",
+    "intro1": "我是一名前端开发人员,热衷于区块链前端开发工作,我目前参与了哪些？",
+    "intro2": "投资区块链",
+    "intro3": "参与社区生态, 学习前端知识,",
+    "intro4": "开发前端产品",
+    "intro5": "正在用学到的前端知识去构建有趣的前端产品",
+    "more": "更多",
+    "myprofolio": "我的作品",
+    "ontheweb3": "互联网生活",
+    "resume1": "2018 完成重庆交通大学电气工程学科本科课程，获得学士学位",
+    "resume2": "2018 就职于BYD（比亚迪）电动汽车团队",
+    "resume3": "2021 加入重庆大学无线充电科研团队",
+    "resume4": "2021~至今 投身于Web3领域前端技术",
+    "somethinggood": "一些好东西",
+    "stack": "技术栈",
+    "stack1": "脚本语言：Javascript",
+    "stack2": "Css框架：Tailwindcss",
+    "stack3": "静态类型检查器：Typescript",
+    "stack4": "组件库：React",
+    "stack5": "框架：Next.js",
+    "stack6": "区块链：Solana",
+    "stack7": "高级语言：Rust",
+    "untilnow": "迄今为止",
+    "welcome": "欢迎来到我的频道!!",
+    "work": "工作"
+  }
+}
